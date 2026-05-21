@@ -157,7 +157,7 @@
     .logo-guide-grid { display:grid; grid-template-columns:1.05fr 1.5fr; gap:16px; }
     .identity-logos { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .logo-box { border:1px solid var(--line); border-radius:16px; background:#fff; min-height:170px; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:18px; text-align:center; gap:12px; }
-    .logo-box img { max-width:100%; max-height:82px; object-fit:contain; }
+    .logo-box img { max-width:100%; object-fit:contain; }
     .logo-box p { margin:0; color:var(--muted); font-size:12px; line-height:1.45; }
     .swatches { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; }
     .swatch { border:1px solid var(--line); border-radius:16px; overflow:hidden; background:#fff; }
@@ -165,7 +165,7 @@
     .swatch-info { padding:12px; font-size:12px; color:#40546A; line-height:1.55; }
     .usage-row { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
     .usage { border:1px solid var(--line); border-radius:14px; padding:12px; background:#fff; text-align:center; color:var(--muted); font-size:12px; line-height:1.5; min-height:130px; }
-    .usage img { height:42px; object-fit:contain; display:block; margin:10px auto; }
+    .usage img { width:100%; object-fit:contain; display:block; margin:10px auto; }
     .bad-mark { color:#D92D20; font-weight:950; }
     .good-mark { color:#079455; font-weight:950; }
     .type-sample { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
@@ -214,6 +214,7 @@
       .page-head { display:block; }
       .poster-title { font-size:36px; }
       .poster-inner { padding:30px 26px 24px; }
+      .usage img { width:auto; height:60px; }
     }
   </style>
 </head>
